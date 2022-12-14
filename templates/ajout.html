@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/style.css" rel="stylesheet">
+    <title>Ajout</title>
+</head>
+<body>
+    <div class="menu">
+        <form action = "/ajout" method = "POST">
+            <h1>Ajout d'un article</h1>
+            <p>Nom de l'article : <br/><input type = "text" name = "article" /></p>
+            <p>Description : <br/><input type = "text" name = "description" /></p>
+            <p>prix : <br/><input type = "text" name = "prix" /></p>
+            <p>Quantité : <br/><input type ="text" name = "quantite" /></p>
+            <p><input class="button" type="submit" value="Confirmer" /></p>
+        </form>
+        <a class="button" name="menu" href="/">Retour au menu</a><br/>
+    </div>
+</body>
